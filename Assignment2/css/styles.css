@@ -43,9 +43,13 @@ main{
   font-weight: 600;
   color: white;
 }
-.menu-item-heading:nth-child(1){
-    background-color: blueviolet;
+.violet{
+        background-color: blueviolet;
 }
+.green{
+    background-color: rgb(88, 209, 88);
+}
+
 @media (max-width:991px) {
     main{
         grid-template-columns: 1fr 1fr;
