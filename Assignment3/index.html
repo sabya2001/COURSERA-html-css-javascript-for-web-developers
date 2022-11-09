@@ -1,77 +1,104 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-
-<title>Module 3</title>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../Assignment3/css/styles.css">
+    <title>Assignment3</title>
 </head>
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="../Assignment3/css/styles.css">
-
-
-
 <body>
-
-
-<nav class="navbar" id="top">
-  <div class="container-fluid">
-
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
-      </button>
-      <a class="navbar-brand" href="#">Food, LLC</a>
+    <div class="container-fluid navbar-container">
+        <nav class="navbar navbar-expanded navbar-light">
+            <a href="#" class="navbar-brand">Food LLC</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#toggleButton" data-bs-controls="toggleButton" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="toggleButton">
+                <ul class="navbar-nav text-center">
+                    <li><a href="#indian" class="nav-link">Indian</a></li>
+                    <li><a href="#chinese" class="nav-link">Chinese</a></li>
+                    <li><a href="#japanese" class="nav-link">Japanese</a></li>
+                </ul>
+            </div>
+        </nav>
     </div>
+    <h2 class="text-center mt-3 mb-3 ">
+        Our Menu
+    </h2>
+    <main class=" row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="col-xs-12 menu-item-container bg-light border border-dark" id="indian">
+                <div class="fw-bold d-flex justify-content-center align-items-center">Indian</div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quaerat laudantium dolorum perspiciatis
+                corporis natus, reiciendis impedit nihil, culpa in maiores quo placeat assumenda delectus! Dignissimos
+                iure ex rem. Nulla?
+                Nobis omnis unde sed reprehenderit maiores illum explicabo dicta nihil id iste soluta voluptatibus
+                blanditiis hic earum cupiditate, aliquid possimus quas, repellendus ullam ipsa itaque dolor. Magnam
+                beatae earum et.
+                Nam, animi. Ducimus dignissimos excepturi iste quod ipsam exercitationem beatae est cum sint iusto nemo,
+                omnis quaerat eligendi voluptate et, non libero neque, sit totam quae vel eveniet in necessitatibus!
+                Hic exercitationem officia molestias blanditiis ipsum at minima possimus unde officiis recusandae, magni
+                in maiores quas voluptatem vel. Ut pariatur quasi esse fugit magni cumque amet harum assumenda dicta
+                quidem.
+                Necessitatibus vel dicta officiis repellat at, alias maiores, quibusdam sunt, autem et velit. Dolorem,
+                eaque quod ratione quas distinctio consequatur consectetur eveniet impedit ipsam commodi, dolor natus
+                quo quae quaerat.
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="col-xs-12 menu-item-container bg-light border border-dark " id="chinese">
+                <div class="fw-bold d-flex justify-content-center align-items-center">Chinese</div>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor quos nisi ipsa omnis molestiae, impedit
+                perspiciatis ducimus incidunt, distinctio porro aliquid odit animi tenetur similique. Harum et cumque
+                libero aspernatur.
+                Explicabo laudantium nam similique ipsam recusandae aperiam dolore fuga vel et id porro facere, saepe,
+                cumque molestiae, cupiditate quibusdam. Officiis, repudiandae veritatis rerum sequi vel quas unde quam
+                fugit quo?
+                Maiores eligendi, fugit accusamus harum voluptatem unde quo maxime neque dolorum sed dolor? Dolores
+                itaque quae tempore sint accusantium ad quam! Accusantium maiores nostrum suscipit cumque molestiae
+                asperiores delectus culpa?
+                Fugiat doloribus eius, dicta consequuntur provident voluptate consequatur natus delectus, quas ex
+                deserunt dignissimos fuga omnis perferendis voluptas ea harum beatae distinctio ut cum explicabo ullam
+                nisi est. Eum, fuga.
+                Accusantium pariatur quaerat sapiente quae repellendus praesentium facilis, consequatur illum ducimus
+                doloribus cum reiciendis veniam officiis assumenda sequi suscipit. Iure similique provident eaque, odio
+                inventore voluptatum in ad ipsa illum.
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="col-xs-12 menu-item-container bg-light border border-dark " id="japanese">
+                <div class="fw-bold d-flex justify-content-center align-items-center">Japanese</div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore incidunt tenetur impedit error
+                eveniet dicta officia quia, sed debitis sint, mollitia tempora libero optio doloribus! Reprehenderit
+                doloremque quia accusamus excepturi!
+                Enim, odio ipsa id libero tenetur adipisci repudiandae architecto consequuntur saepe optio doloribus,
+                perspiciatis vitae. Ipsam quisquam explicabo, corrupti, dolorem at, saepe accusantium architecto aperiam
+                quod quis vel illum aliquid.
+                Unde et temporibus iste iusto, assumenda suscipit nostrum sapiente est ut quo nam dignissimos nobis
+                exercitationem a pariatur nemo voluptatum debitis tempore. Eius voluptas deleniti delectus, aliquid sit
+                incidunt. A.
+                Aut vero est blanditiis dicta at autem ut debitis nesciunt quas pariatur necessitatibus, non maiores
+                omnis totam! Provident, ipsam quibusdam nostrum repellat voluptates dicta molestiae repudiandae illo
+                sint facere exercitationem.
+                Vero, repellendus dolore nam maiores architecto sunt praesentium ipsa explicabo accusamus pariatur,
+                asperiores eos voluptatibus? Ullam, hic harum ex minima ad asperiores illum, quos nisi placeat non
+                quibusdam tempore quia.
+            </div>
+        </div>
 
-    <div class="collapse" id="myNavbar">
-      <ul class="nav navbar-nav visible-xs">
-        <li><a class="menu-item" href="#">Indian</a></li>
-        <li><a class="menu-item" href="#">Chinese</a></li> 
-        <li><a class="menu-item" href="#">Japanese</a></li> 
-      </ul>
-    </div>
-
-  </div>
-</nav>
-
-<h1 class="main-title">Our Menu</h1>
-
-
-
-<div class="row">
-
-  <div class="col-lg-4 col-md-6 col-sm-12">
-    <div class="content-box">
-      <p class="item-name">Indian</p>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<a href="#top">(Back to Top)</a></p>
-    </div>
-  </div>
-
-  <div class="col-lg-4 col-md-6 col-sm-12">
-    <div class="content-box">
-      <p class="item-name">Chinese</p>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<a href="#top">(Back to Top)</a></p>
-    </div>
-  </div>
-
-
-  <div class="col-lg-4 col-md-12 col-sm-12">
-    <div class="content-box">
-      <p class="item-name">Japanese</p>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<a href="#top">(Back to Top)</a></p>
-    </div>
-  </div>
-
-</div>
+    </main>
 
 
 </body>
+
 </html>
